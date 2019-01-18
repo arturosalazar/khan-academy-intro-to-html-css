@@ -12,28 +12,41 @@
   and copy the URL into your <img> tag.
 
 -->
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Project: Recipe book</title>
         <meta charset="utf-8">
         <style>
+            body{
+                background-color:rgb(134,219,215);
+            }
+            h1 {
+                color:brown;
+            }
+            .header {
+                color:brown;
+            }
+            #bottom-instruction {
+                color:rgb(45,61,91);
+            }
         </style>
     </head>
     <body>
        
-        <h1>Arturo's Recipe Book</h1>
+        <h1 id="main-title">Arturo's Recipe Book</h1>
         
-        <h2>Contents:</h2>
+        <h2 class="header">Contents:</h2>
         
         <ol>
             <li><a href="#recipe-1">Slow Cooker Butter Chicken</a></li>
-            <li><a href="#recipe-2">Recipe #2</a></li>
-            <li><a href="#recipe-3">Recipe #3</a></li>
+            <li><a href="#recipe-2">BBQ Pork & Peppers</a></li>
+            <li><a href="#recipe-3">Slow Cooker Flank Steak Fajitas</a></li>
         </ol>
         
-        <h2 id="recipe-1">Recipe #1:Slow Cooker Butter Chicken</h2>
+        <h2 class="header" id="recipe-1">Slow Cooker Butter Chicken</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/800px-Chicken_makhani.jpg" alt="butter chicken" width="400">
         
         <ul>
             <li>Time: 4 h 30 m</li>
@@ -127,11 +140,13 @@
 
     <p><em>Source: <a href="https://www.allrecipes.com/recipe/174543/slow-cooker-butter-chicken/">allrecipes.com</a></em></p>
     
-    <h2 id="recipe-2">Recipe #2</h2>
+    <h2 class="header" id="recipe-2">BBQ Pork & Peppers</h2>
+        
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/SantaMaria-StyleBBQ.jpg/800px-SantaMaria-StyleBBQ.jpg" alt="bbq pork and peppers" width="400">
         
         <ul>
-            <li>Time: _</li>
-            <li>Serves: _</li>
+            <li>Time: 8 h</li>
+            <li>Serves: 4</li>
         </ul>
         
         <table>
@@ -142,19 +157,41 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td>Bone in Pork Loin Chops</td>
+                    <td> 4 chops (7 oz each)</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 onion (large)</td>
+                </tr>
+                <tr>
+                    <td>Sweet Red Pepper</td>
+                    <td>1 large pepper, chopped</td>
+                </tr>
+                <tr>
+                    <td>Green Pepper</td>
+                    <td>1 large pepper, chopped</td>
+                </tr>
+                <tr>
+                    <td>Barbecue Sauce</td>
+                    <td>1 cup</td>
+                </tr>
             </tbody>
         </table>
         
-        <p><strong>Step 1:</strong> Do something.
+        <p><strong>Step 1:</strong> Place chops in a 4-qt. slow cooker coated with cooking spray. Top with onion, peppers and barbecue sauce. Cover and cook on low 8-10 hours or until pork is tender. If desired, top with chopped fresh parsley.
 </p>
         
-    <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    <p><em>Source: <a href="https://www.tasteofhome.com/recipes/bbq-pork-peppers/">tasteofhome.com</a></em></p>
     
-    <h2 id="recipe-3">Recipe #3</h2>
+    <h2 class="header" id="recipe-3">Slow Cooker Flank Steak Fajitas</h2>
+    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Fajitas_Wraps.JPG/800px-Fajitas_Wraps.JPG" alt="bbq pork and peppers" width="400">
         
         <ul>
-            <li>Time: _</li>
-            <li>Serves: _</li>
+            <li>Time: 8 h</li>
+            <li>Serves: 8</li>
         </ul>
         
         <table>
@@ -165,12 +202,49 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td>Beef Flank Steak</td>
+                    <td>1 steak (2 lbs)</td>
+                </tr>
+                <tr>
+                    <td>Green Pepper</td>
+                    <td>1 medium pepper, cut into strips</td>
+                </tr>
+                <tr>
+                    <td>Sweet Red Pepper</td>
+                    <td>1 medium pepper, cut into strips</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1 medium onion, halved and sliced</td>
+                </tr>
+                <tr>
+                    <td>Fajita Seasoning Mix</td>
+                    <td>1 envelope</td>
+                </tr>
+                <tr>
+                    <td>Beer</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Flour Tortillas</td>
+                    <td>8 tortillas (warmed)</td>
+                </tr>
+                <tr>
+                    <td>Pico de Gallo</td>
+                    <td>1 cup</td>
+                </tr>
             </tbody>
         </table>
         
-        <p><strong>Step 1:</strong> Do something.
+        <p><strong>Step 1:</strong> Place first five ingredients in a 5-qt. slow cooker. Pour beer over top. Cook, covered, on low until meat is tender, 6-8 hours.
+</p>
+        <p><strong>Step 2:</strong> Remove beef from slow cooker. Strain vegetable mixture; return vegetables to slow cooker. (Discard cooking juices or save for another use.) Shred beef with two forks; add to vegetables and heat through. Serve in tortillas with pico de gallo and cilantro.
 </p>
         
-    <p><em>Source: <a href="">Some recipes websites</a></em></p>
+    <p><em>Source: <a href="https://www.tasteofhome.com/recipes/slow-cooker-flank-steak-fajitas/">tasteofhome.com</a></em></p>
+    <p id="bottom-instruction"> Had enough for now? Then go back to the
+    <a href="#main-title">top</a>
+    </p>
     </body>
 </html>
