@@ -1,0 +1,65 @@
+/*
+  In this project, you'll make your own blog using HTML and CSS. It should have at least 2 entries, and the table of contents
+  should internally link to each entry. Use CSS text properties to style your blog - like changing the font family, line
+  height, and font styles of various sections.
+*/
+
+<!DOCTYPE html>
+
+<!--
+    -create own blog
+    -blog should have at least 2 entries
+    -should have a table of contents (link internally to each entry
+    -use CSS text properties to style blog
+        +change font-families
+        +change line-height
+        +change font styles for diff sections
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body {
+                background-color:rgb(198,224,234);
+                font-family: sans-serif;
+            }
+            h1{
+                text-align:center;
+            }
+            p {
+                color:rgb(181,131,94);
+            }
+            .heading{
+                color:rgb(181,131,140);
+                font-family:monospace;
+            }
+            .date {
+                color: rgb(0,80,155);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 class="heading">Arturo's blog</h1>
+
+        <h3 class="heading">Contents</h3>
+        <ul>
+            <a href="#first-post"><li>Why I started programming</li></a>
+            <a href="#second-post"><li>Second post!</li></a>
+        </ul>
+        
+        <h2 id="first-post" class="heading">Why I started programming</h2>
+        <h6 class="date">Mon 5:43p PM 1/21/19</h6>
+        
+        <p>Something excited happened.</p>
+        
+        <h2 id="second-post" class="heading">How I have been studying</h2>
+        <h6 class="date">Mon 5:43p PM 1/21/19</h6>
+        
+        <p>Something excited happened.</p>
+        
+        
+    </body>
+</html>
