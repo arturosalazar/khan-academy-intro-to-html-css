@@ -2,8 +2,12 @@
   In this project, you'll make your own blog using HTML and CSS. It should have at least 2 entries, and the table of contents
   should internally link to each entry. Use CSS text properties to style your blog - like changing the font family, line
   height, and font styles of various sections.
-*/
 
+  Must contain: at least
+    2 blog posts
+    3 CSS rules
+    4 properties that being with "font-"
+*/
 <!DOCTYPE html>
 
 <!--
@@ -30,6 +34,8 @@
             }
             p {
                 color:rgb(181,131,94);
+                line-height:1.5em;
+                font-size:15px;
             }
             .heading{
                 color:rgb(181,131,140);
@@ -38,6 +44,10 @@
             .date {
                 color: rgb(0,80,155);
             }
+            #future-plans {
+                font-weight:bold;
+                font-style:italic;
+            } 
         </style>
     </head>
     <body>
@@ -47,18 +57,21 @@
         <h3 class="heading">Contents</h3>
         <ul>
             <a href="#first-post"><li>Why I started programming</li></a>
-            <a href="#second-post"><li>Second post!</li></a>
+            <a href="#second-post"><li>What have I been studying?</li></a>
         </ul>
         
         <h2 id="first-post" class="heading">Why I started programming</h2>
-        <h6 class="date">Mon 5:43p PM 1/21/19</h6>
+        <h6 class="date">Mon 5:45p PM 1/21/19</h6>
         
-        <p>Something excited happened.</p>
+        <p>The main reason I started to learn how to program is that I enjoyed the challenge of learning how to solve a problem. Although learning to program involves learning the syntax of a language and the various minutae of how to make it work, the most exciting part of programming is learning how to solve a problem. I'm really looking forward to pushing forward and learning some new things</p>
         
-        <h2 id="second-post" class="heading">How I have been studying</h2>
-        <h6 class="date">Mon 5:43p PM 1/21/19</h6>
+        <h2 id="second-post" class="heading">What have I been studying?</h2>
+        <h6 class="date">Mon 12:07p PM 1/22/19</h6>
         
-        <p>Something excited happened.</p>
+        <p>I started out some time ago by using a course called <em>Practical Javascript</em> that went through the process of creating a todo app with JavaScript. This provided </p>
+        <p>After that, I started working on a variety of different problems using <em>Code Wars</em>. While this was interesting, I missed out on the structure of a course.</p>
+        <p>Now, I'm working on a series of courses that is listed in a guide by p1xt on  github. This selection of courses is intended to get me to the point that I can start applying for programming jobs.</p>
+        <p id="future-plans">I intend to work on these courses independently while also working on projects that help me practice and develop my programming skills</p>
         
         
     </body>
