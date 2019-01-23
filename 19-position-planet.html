@@ -4,7 +4,9 @@
 
   In this first step, use absolute positioning to put the creature on top of the planet somewhere.
   
-  In thE second step, position the greeting on top of the planet as well.
+  In the second step, position the greeting on top of the planet as well.
+
+  In the third setp, Now use a z-index property to make sure that the greeting always shows up over the creature, not behind.
 -->
 <!DOCTYPE html>
 <html>
@@ -21,12 +23,14 @@
                 position: absolute;
                 top:39px;
                 left:135px;
+                z-index:2;
             }
             
             #creature {
                 position:absolute;
                 top:64px;
                 left:49px;
+                z-index:1;
             }
         </style>
     </head>
