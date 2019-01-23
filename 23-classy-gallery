@@ -8,8 +8,6 @@
   try a few out!
 -->
 
-<!-- Starting Code ->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -41,12 +39,11 @@
         
         <h1>A classy gallery</h1>
         
-        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        <img class="image-small black-frame" src="https://www.kasandbox.org/programming-images/animals/cat.png">
         
-        <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        <img class="image-medium gold-frame" src="https://www.kasandbox.org/programming-images/animals/fox.png">
         
-        <img src="https://www.kasandbox.org/programming-images/animals/penguins.png">
-
+        <img class="image-medium silver-frame" src="https://www.kasandbox.org/programming-images/animals/penguins.png">
 
     </body>
 </html>
