@@ -4,6 +4,9 @@
 
   There's a yellow div of information. Make that div float to the right of the text, so that the photo is on the left side of
   the text and the yellow div is on the right side of the text.
+
+  Now that we have elements floated next to eachother, we should make sure to separate them with some whitespace. Add
+  appropriate margins to the photo and the sidebar.
 -->
 
 <!DOCTYPE html>
@@ -21,10 +24,12 @@
             #cloud-pic {
                 width: 100px;
                 float: left;
+                margin-right:12px;
             }
             #cloud-sidebar {
                 background: rgb(255, 255, 219);              float:right;
                 width:30%;
+                margin-left:6px;
             }
         </style>
     </head>
